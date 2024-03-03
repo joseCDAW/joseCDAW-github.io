@@ -1,0 +1,19 @@
+.cursos {
+    grid-area: cursos;
+    margin-top: 5vh;
+    height: fit-content;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cursos__titulo {
+    font-family: Fuente1;
+    color: white;
+    width: 100%;
+    text-align: center;
+    width: 90%;
+    align-self: center;
+}

@@ -1,0 +1,13 @@
+.texto {
+    grid-area: texto;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    font-family: Fuente2;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}

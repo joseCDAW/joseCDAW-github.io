@@ -1,0 +1,15 @@
+@import "variables/variables", "variables/mixin", "variables/animations", "base/fullpage", "base/footer", "base/header", "base/texto", "base/main", "base/aside", "layouts/cards", "layouts/curso", "layouts/info-card", "layouts/sobre-nosotros";
+
+@font-face {
+    font-family: 'Fuente1';
+    src: url('fonts/Tough-Love.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fuente2';
+    src: url('fonts/HeadingNowTrial-66Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: $color_principal;
+    padding: 0;
+    margin: 0;
+    font-size: larger;
+}
+
+.container {
+    display: grid;
+    grid-template:
+        "menu menu"
+        "cursos info"
+        "footer footer";
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 0.5fr;
+}
+
+.container2 {
+    display: grid;
+    grid-template:
+        "menu"
+        "texto"
+        "footer";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        grid-template:
+            "menu"
+            "cursos"
+            "info"
+            "footer";
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,47 @@
+.curso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 8px 0 rgba($color: #000000, $alpha: 1.0);
+    border-radius: 5%;
+    background-color: white;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.curso:hover {
+    animation: zoom 0.5s normal forwards ease-out;
+}
+
+.curso__titulo {
+    font-family: Fuente1;
+}
+
+.curso__informacion {
+    font-family: Fuente2;
+    padding: 20px;
+}
+
+.curso__profesor__overlay,
+.curso__profesor__titulo {
+    font-family: Fuente2;
+}
+
+@media screen and (max-width: 767px) {
+        .curso{
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+
+    .curso__videos--video {
+        width: 250px;
+        height: 250px;
+    }
+
+    .curso__profesor__overlay {
+        font-size: xx-small;
+    }
+}
